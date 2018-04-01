@@ -1,0 +1,15 @@
+https://youtu.be/HiXLkL42tMU?t=1948
+Debes terminar el tutorial, ahora sigue Branches
+
+Hoy he aprendido muchos comandos de git:
+git status
+git add FILE
+git commit -m "MENSAJE"
+git push
+git pull
+git init %convierte la carpeta actual a trabajar con git
+git log %informacion
+git checkout -- FILE %descartar diferenc
+git diff FILE %ver diferencias
+.gitignore %crear una archivo con este nombre, github ignora el contenido
+
