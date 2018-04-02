@@ -1,0 +1,75 @@
+En los Sistemas Eléctricos la norma indica que en el PCC
+se debe entregar una tensión fija con un pequeño margen
+de error (que depende del nivel de tensión), y en una única
+frecuencia (50Hz para Chile). De forma generica la tension:
+        V(t)=V1*cos(1wt+0°)          ;w=frec.ang.fund.
+
+Dicho lo anterior, ahora lo que nos queda analizar es la
+CARGA, resulta que la naturaleza de las cargas es NO LINEAL
+por lo cual las corrientes que aparecerán en nuestro Sist
+tendrán formas de onda no necesariamente sinusoidales
+
+Es ahora cuando nace la necesidad de una representación
+conveniente para describir la corriente matemáticamente,
+para lo cual se recurre a buscar una base ortogonal y
+con esta describir la corriente como una sumatoria de
+componentes
+
+Recordemos que el principio de Ortogonalidad nace del
+producto punto de dos vectores, si el resultado es 0
+nuestros vectores son perpendiculares
+
+Fourier toma una base de vectores ortogonales. Usando serie
+compacta de Fourier, se llega a la representación de 
+corriente:
+    i(t)=i0+i1cos(1wt-d1)+i2cos(2wt-d2)+...+incos(nwr-dn)
+
+Como ya tenemos las expresiones de Tensión y Corriente,
+es necesario definir la Potencia Media para señales
+no sinusoidales:
+        T*Pmed(t)=int[V(t)*i(t)*dt,t,0,T]
+
+
+
+
+
+
+
+
+
+
+
+
+    Secuencia de Armónicas en Sistemas 3f Balanceados
+        1   +
+        2   -
+        3   0
+        4   +
+        5   -
+        6   0
+        7   +
+        8   -
+        9   0
+ 
+Afortunadamente las formas de onda CORRIENTE que resultan
+de los comportamientos no lineales de las cargas, cumplen 
+aproximadamente la llamada SIMETRIA DE MEDIA ONDA, lo
+cual resulta en que la Amplitud de las ARMONICAS PARES
+son idealmente CERO
+
+Las Armónicas de interés en Sist. Balanc. son las IMPARES
+        1   +
+        3   0
+        5   -
+        7   +
+        9   0
+        11  -
+
+Si seguimos analizando podemos decir que si el Sistema
+es Balanceado, tanto la TERCERA, la NOVENA y todas las
+otras impares de SEC(0), se 'anularán' entre ellas,
+puesto que la Corriente en el Neutro (In) es cero y:
+                In=3xIo=0
+
+
+
