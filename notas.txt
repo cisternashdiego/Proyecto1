@@ -29,7 +29,7 @@ es necesario definir la Potencia Media para señales
 no sinusoidales:
         T*Pmed(t)=int[V(t)*i(t)*dt,t,0,T]
 
-
+Daniela vino a verme
 
 
 
