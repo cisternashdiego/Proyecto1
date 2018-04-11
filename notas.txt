@@ -1,3 +1,4 @@
+
 En los Sistemas Eléctricos la norma indica que en el PCC
 se debe entregar una tensión fija con un pequeño margen
 de error (que depende del nivel de tensión), y en una única
@@ -29,11 +30,31 @@ es necesario definir la Potencia Media para señales
 no sinusoidales:
         T*Pmed(t)=int[V(t)*i(t)*dt,t,0,T]
 
-Daniela vino a verme
 
 
 
+Ferromagnetismo es la capacidad de ciertos materiales ferrosos
+para producir flujo magnetico en presencia de un campo magnetico
+Este tipo de fenomeno es el principio bajo el cual transformadores
+y motores operan.
+La característica magnética de estos dispositivos en no-lineal,
+esto es mas pronunciado en transformadores que en motores,
+debido al entrehierro presente entre el estator y rotor en los motores.
+Curvas de histeresis.
 
+Los modernos transformadores y máquinas rotativas, bajo condiciones
+de operación en estado estacionario no cacusan una significativa distorsión
+a la red.
+Sin embargo durante disturbios transitorios y cuando operan fuera de su rango
+normal (sobrecarga o vacío) pueden aumentar considerablemente su contribución
+armónica.
+El principal efecto de las armónicas en máquinas eléctricas de corriente
+alternada es el aumento de la temperatura de operación, debido al aumento
+de las pérdidas en el fierro y en el cobre.
+Las componentes armónicas afectan el torque de la máquina, pudiendo generar
+ruido audible aunque la contribución para el torque medio sea pequeña,
+puede ocasionar pulsaciones de torque, fatiga de material y hasta
+resonancias mecánicas de la máquina.
 
 
 
