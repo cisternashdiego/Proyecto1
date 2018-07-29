@@ -1,0 +1,18 @@
+Torque=15 Nm
+w=153.73 rad/s
+corriente previa falla Peak=10.68
+
+EFECTO DE LA FALLA
+
+corrientes con comportamiento ciclico
+torque pulsante con valor medio igual a 15
+velocidad disminuye postfalla
+
+THD=0.14%
+Fundamental=11.01
+Presente el 25Hz=4.19%
+
+
+
+
+&&&&VirtualBox

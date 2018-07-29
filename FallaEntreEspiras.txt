@@ -1,0 +1,6 @@
+Se adiciona inductancia en serie
+correspondiente al 50% de Lstator
+Ls=0.00496H
+Ladicional=0.00248H
+
+
