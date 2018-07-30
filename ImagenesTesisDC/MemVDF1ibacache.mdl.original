@@ -1,6 +1,6 @@
 # $Revision: 1.1.6.7 $
 Model {
-  Name			  "MemVDF1ibacache"
+  Name			  "MemVDF1"
   Version		  8.5
   MdlSubVersion		  0
   SavedCharacterEncoding  "windows-1252"
@@ -8,7 +8,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.168"
+    ComputedModelVersion    "1.167"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -36,7 +36,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [402.0, 112.0, 1143.0, 853.0]
+      Location		      [-8.0, -8.0, 1936.0, 1056.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -45,13 +45,13 @@ Model {
 	DockPosition		"Left"
 	Width			[50]
 	Height			[50]
-	Filter			[9]
+	Filter			[8]
       }
       Object {
 	$PropName		"ExplorerBarInfo"
 	$ObjectID		4
 	$ClassName		"Simulink.ExplorerBarInfo"
-	Visible			[1]
+	Visible			[0]
       }
       Object {
 	$PropName		"EditorsInfo"
@@ -60,7 +60,7 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[1093.0, 678.0]
+	Extents			[1886.0, 911.0]
 	ZoomFactor		[1.0]
 	Offset			[-2.5, -6.0]
       }
@@ -73,11 +73,11 @@ Model {
   Creator		  "Hoang Lehuy, Laval University"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "Diego Cisternas"
+  LastModifiedBy	  "MatíasIván"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sun Jul 29 22:30:28 2018"
-  RTWModifiedTimeStamp	  454803961
-  ModelVersionFormat	  "1.%<AutoIncrement:168>"
+  LastModifiedDate	  "Wed Jun 27 20:31:56 2018"
+  RTWModifiedTimeStamp	  452032303
+  ModelVersionFormat	  "1.%<AutoIncrement:167>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -120,11 +120,11 @@ Model {
     $PropName		    "DataLoggingOverride"
     $ObjectID		    6
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
-    model_		    "MemVDF1ibacache"
+    model_		    "MemVDF1"
     Array {
       Type		      "Cell"
       Dimension		      1
-      Cell		      "MemVDF1ibacache"
+      Cell		      "MemVDF1"
       PropName		      "logAsSpecifiedByModels_"
     }
     Array {
@@ -191,7 +191,7 @@ Model {
 	  $ObjectID		  8
 	  Version		  "1.15.0"
 	  StartTime		  "0.0"
-	  StopTime		  "9"
+	  StopTime		  "3"
 	  AbsTol		  "auto"
 	  FixedStep		  "auto"
 	  InitialStep		  "auto"
@@ -693,8 +693,8 @@ Model {
 	PropName		"Components"
       }
       Name		      "Configuration"
-      CurrentDlgPage	      "Solver"
-      ConfigPrmDlgPosition     [ 404, 158, 1516, 876 ] 
+      CurrentDlgPage	      "Diagnostics/Connectivity"
+      ConfigPrmDlgPosition     [ 412, 189, 1508, 868 ] 
     }
     PropName		    "ConfigurationSets"
   }
@@ -1067,8 +1067,8 @@ Model {
     }
   }
   System {
-    Name		    "MemVDF1ibacache"
-    Location		    [402, 112, 1545, 965]
+    Name		    "MemVDF1"
+    Location		    [-8, -8, 1928, 1048]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -1132,7 +1132,7 @@ Model {
       BlockMirror	      on
       ForegroundColor	      "blue"
       NamePlacement	      "alternate"
-      Value		      "157"
+      Value		      "120"
     }
     Block {
       BlockType		      Constant
@@ -1142,7 +1142,7 @@ Model {
       ZOrder		      -4
       ForegroundColor	      "blue"
       NamePlacement	      "alternate"
-      Value		      "151"
+      Value		      "15"
     }
     Block {
       BlockType		      Goto
@@ -1214,7 +1214,7 @@ Model {
       ReferenceFrame	      "Stationary"
       Units		      "SI"
       MeasurementBus	      off
-      NominalParameters	      "[ 50*746, 460, 50 ]"
+      NominalParameters	      "[ 50*746, 460, 60 ]"
       Stator		      "[ 0.087 0.8e-3 ]"
       Rotor		      "[ 0.228  0.8e-3 ]"
       Cage1		      "[0.4155 0.002066]"
@@ -1423,7 +1423,7 @@ Model {
       BackgroundColor	      "green"
       NamePlacement	      "alternate"
       Floating		      off
-      Location		      [779, 57, 1920, 1078]
+      Location		      [1, 49, 1921, 1039]
       Open		      off
       NumInputPorts	      "4"
       List {
@@ -1554,7 +1554,7 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"Vector Control"
-	Location		[402, 112, 1545, 965]
+	Location		[398, 275, 1059, 823]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -3573,7 +3573,7 @@ Model {
 	  ZOrder		  12
 	  SrcBlock		  "Teta\nCalculation"
 	  SrcPort		  1
-	  Points		  [20, 0]
+	  Points		  [5, 0; 15, 0]
 	  Branch {
 	    ZOrder		    13
 	    DstBlock		    "dq to ABC\nconversion"
@@ -3659,7 +3659,7 @@ Model {
       HookPort		      off
       EnableUseOfTLC	      off
       x0status		      "blocks"
-      frequencyindice	      "50"
+      frequencyindice	      "60"
       Pbase		      "100e6"
       ErrMax		      "1e-4"
       Iterations	      "50"
@@ -3675,13 +3675,13 @@ Model {
       save		      off
       variable		      "ZData"
       structure		      "ScopeData"
-      ZoomFFT		      off
-      StartTime		      "7.9"
-      cycles		      "50"
-      DisplayStyle	      "3"
-      fundamental	      "52"
+      ZoomFFT		      on
+      StartTime		      "2"
+      cycles		      "1"
+      DisplayStyle	      "2"
+      fundamental	      "60"
       FreqAxis		      off
-      MaxFrequency	      "8000"
+      MaxFrequency	      "1000"
       frequencyindicesteady   "1"
       RmsSteady		      "1"
       display		      off
